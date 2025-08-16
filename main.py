@@ -7,20 +7,24 @@ else:
     print("The number is zero (Neutral)")
 
 
-score = float(input('Enter Your Score from your Exam: '))
+score = float(input('Enter Your Weight (kg): '))
 
-if score >= 90:
-    grade = "A+"
-elif score >= 80:
-    grade = "A"
-elif score >= 70:
-    grade = "B+"
+if score >= 45:
+    weight = "Healthy"
 elif score >= 60:
-    grade = "B"
+    weight = "Good"
+elif score >= 85:
+    weight = "Normal"
+elif score >= 100:
+    weight = "Average"
+elif score >= 120:
+    weight = "Unhealthy"
+elif score >= 150:
+    weight = "Fat"
 else:
-    grade = "F"
+    weight = "CASEOH!"
 
-print(f"Your Grade is {grade}")
+print(f"Your Fitness is {weight}") 
 
 #Nested Conditions 
 
