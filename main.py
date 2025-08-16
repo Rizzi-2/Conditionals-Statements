@@ -39,7 +39,7 @@ elif num == 0:
     print("Zero (Neutral)")
 else:
     print("Negative Number")
-
+#Ok
 #Ternary Operator
 
 even_odd = f"{num} is an Odd Number" if num%2==1 else f"{num} is an Even Number"
